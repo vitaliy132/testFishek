@@ -1,0 +1,13 @@
+li {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
