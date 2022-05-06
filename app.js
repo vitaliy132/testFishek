@@ -52,3 +52,21 @@ bind(person2, logPerson)();
 // let jiga = rabota.push("END");
 // console.log(rabota);
 // console.log(jiga);
+
+let qwer = ["ewq", "css", "javas"];
+qwer = qwer.map((s) => [...s].reverse().join(""));
+console.log(qwer);
+
+let qwerLengts = qwer.map(function (qwer) {
+  return qwer.length;
+});
+
+console.log(qwerLengts);
+
+let cerf = 20;
+
+if (cerf == 11) {
+  console.log("NET");
+} else if (cerf < 100) {
+  console.log("DAROVA");
+}
